@@ -1,0 +1,1140 @@
+{
+  "@@locale": "vi",
+  "appTitle": "Theo dõi kỳ kinh",
+  "commonToday": "Hôm nay",
+  "commonSave": "Lưu",
+  "commonBack": "Quay lại",
+  "commonClose": "Đóng",
+  "commonContinue": "Tiếp tục",
+  "commonCancel": "Huỷ",
+  "commonDays": "{count} ngày",
+  "@commonDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonMonthYear": "Tháng {month}, {year}",
+  "@commonMonthYear": {
+    "description": "Month header. Pass month as \"1\"..\"12\".",
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDayMonth": "{day}/{month}",
+  "@commonDayMonth": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "weekdayShortMon": "T2",
+  "weekdayShortTue": "T3",
+  "weekdayShortWed": "T4",
+  "weekdayShortThu": "T5",
+  "weekdayShortFri": "T6",
+  "weekdayShortSat": "T7",
+  "weekdayShortSun": "CN",
+  "weekdayLongMon": "Thứ Hai",
+  "weekdayLongTue": "Thứ Ba",
+  "weekdayLongWed": "Thứ Tư",
+  "weekdayLongThu": "Thứ Năm",
+  "weekdayLongFri": "Thứ Sáu",
+  "weekdayLongSat": "Thứ Bảy",
+  "weekdayLongSun": "Chủ Nhật",
+  "homeTabHome": "Trang chủ",
+  "homeTabCalendar": "Lịch",
+  "homeTabInsights": "Insight",
+  "homeTabSettings": "Cài đặt",
+  "homeLogTodayTooltip": "Ghi nhận hôm nay",
+  "homeTodayWithWeekdayDate": "Hôm nay, {weekday}, {date}",
+  "@homeTodayWithWeekdayDate": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingMorning": "Chào buổi sáng 🌸",
+  "homeOpenCalendarTooltip": "Mở lịch",
+  "homeCycleRemainingPrefix": "Còn",
+  "homeCycleUntilNextPeriod": "đến kỳ kinh tiếp theo",
+  "homeCycleExpectedDate": "Dự kiến: {date}",
+  "@homeCycleExpectedDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeEncouragement": "Bạn đang\nlàm rất tốt!",
+  "homeLogPeriodLate": "Kinh đã đến? Ghi ngay",
+  "homeLogPeriodUpdate": "Cập nhật kỳ kinh • Ngày {day}",
+  "@homeLogPeriodUpdate": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeLogPeriodEarly": "Ra máu? Ghi lại",
+  "homeLogPeriod": "Ghi kỳ kinh",
+  "homeActionCycleAnalysis": "Phân tích chu kỳ",
+  "homeActionAddSymptoms": "Thêm triệu chứng",
+  "homeSectionDailyLog": "Ghi nhận",
+  "homeSectionSymptoms": "Triệu chứng",
+  "homeCalendarMonthTitle": "Lịch tháng {month}",
+  "@homeCalendarMonthTitle": {
+    "description": "Mini calendar header. Pass month as \"1\"..\"12\".",
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTodayButton": "Xem lịch ›",
+  "homeLegendPeriod": "Kỳ kinh",
+  "homeLegendPredicted": "Dự kiến",
+  "homeLegendOvulation": "Rụng trứng",
+  "homeStatusCycleDay": "Ngày {day} của chu kỳ",
+  "@homeStatusCycleDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeStatusAverageCycle": "Chu kỳ trung bình: {length}",
+  "@homeStatusAverageCycle": {
+    "description": "length is a formatted duration, e.g. commonDays(28).",
+    "placeholders": {
+      "length": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTipTitle": "Mẹo hôm nay",
+  "homeTipBody": "Căng thẳng, thiếu ngủ hay thay đổi cân nặng có thể làm kinh đến muộn vài ngày.",
+  "homeTipSeeMore": "Xem thêm",
+  "insightTitle": "Phân tích chu kỳ",
+  "insightSubtitle": "Theo dõi độ dài chu kỳ & thời gian kỳ kinh.",
+  "insightTagline": "Hiểu cơ thể\nyêu chính mình ♥",
+  "insightBadgeNormal": "Bình thường",
+  "insightBadgeIrregular": "Không đều",
+  "insightStatDays": "{count} Ngày",
+  "@insightStatDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightAvgPeriod": "Kỳ kinh trung bình",
+  "insightAvgCycle": "Chu kỳ trung bình",
+  "insightTrendTitle": "Xu hướng chu kỳ & kỳ kinh",
+  "insightLastCycles": "{count} chu kỳ gần nhất",
+  "@insightLastCycles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "insightLegendCycleLength": "Độ dài chu kỳ (ngày)",
+  "insightLegendPeriod": "Kỳ kinh (ngày)",
+  "insightCurrentPhaseTitle": "Phân tích giai đoạn hiện tại",
+  "insightPatternsTitle": "Mẫu thường gặp",
+  "insightPatternPmsSubtitle": "{days} ngày trước kỳ kinh",
+  "@insightPatternPmsSubtitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "insightPatternCrampsSubtitle": "Ngày {startDay} – {endDay} của kỳ kinh",
+  "@insightPatternCrampsSubtitle": {
+    "placeholders": {
+      "startDay": {
+        "type": "int"
+      },
+      "endDay": {
+        "type": "int"
+      }
+    }
+  },
+  "insightTipsTitle": "Gợi ý cho bạn",
+  "onboardingSkip": "Bỏ qua",
+  "onboardingStepProgress": "Bước {current}/{total}",
+  "@onboardingStepProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingStart": "Bắt đầu dùng app",
+  "onboardingWelcomeTitle": "Theo dõi chu kỳ dễ hơn mỗi ngày",
+  "onboardingWelcomeSubtitle": "App giúp bạn ghi kỳ kinh, triệu chứng và nhắc nhở những việc quan trọng mà không làm mọi thứ trở nên rối.",
+  "onboardingWelcomePrivacyTitle": "Riêng tư là mặc định",
+  "onboardingWelcomePrivacyBody": "Dữ liệu sức khỏe được trình bày rõ ràng, không hiển thị quảng cáo trong luồng onboarding.",
+  "onboardingGoalTitle": "Bạn muốn dùng app để làm gì?",
+  "onboardingGoalSubtitle": "Chọn mục tiêu chính để app ưu tiên nội dung và nhắc nhở phù hợp.",
+  "onboardingGoalTrackCycle": "Theo dõi chu kỳ",
+  "onboardingGoalFertileWindow": "Canh ngày dễ thụ thai",
+  "onboardingGoalLogSymptoms": "Ghi triệu chứng",
+  "onboardingGoalWaterReminder": "Nhắc uống nước",
+  "onboardingLastPeriodTitle": "Kỳ kinh gần nhất bắt đầu khi nào?",
+  "onboardingLastPeriodSubtitle": "Thông tin này giúp dự đoán kỳ tới và các giai đoạn trong chu kỳ.",
+  "onboardingDateTileTitle": "{weekday}, {date}",
+  "@onboardingDateTileTitle": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingDateTileSubtitle": "Ngày bắt đầu kỳ kinh",
+  "onboardingCycleTitle": "Thiết lập độ dài chu kỳ",
+  "onboardingCycleSubtitle": "Nếu chưa chắc chắn, bạn có thể giữ mặc định và chỉnh lại sau trong Cài đặt.",
+  "onboardingPeriodLengthLabel": "Số ngày hành kinh",
+  "onboardingCycleLengthLabel": "Độ dài chu kỳ",
+  "onboardingSymptomsTitle": "Bạn thường muốn ghi nhận gì?",
+  "onboardingSymptomsSubtitle": "Chọn nhanh các triệu chứng hay gặp. Bạn vẫn có thể thêm hoặc bỏ sau này.",
+  "onboardingSymptomCramps": "Đau bụng",
+  "onboardingSymptomBackPain": "Đau lưng",
+  "onboardingSymptomFatigue": "Mệt mỏi",
+  "onboardingSymptomHeadache": "Đau đầu",
+  "onboardingSymptomMoodSwings": "Tâm trạng thất thường",
+  "onboardingSymptomAcne": "Mụn",
+  "onboardingReminderTitle": "Bật nhắc nhở nhẹ nhàng",
+  "onboardingReminderSubtitle": "App có thể nhắc ghi nhận hằng ngày, kỳ kinh dự kiến và uống nước theo cài đặt của bạn.",
+  "onboardingDailyReminderTitle": "Nhắc ghi nhận hằng ngày",
+  "onboardingDailyReminderSubtitle": "Hôm nay bạn thấy thế nào? Ghi lại chỉ mất 10 giây",
+  "onboardingReminderInfoTitle": "Có thể đổi bất cứ lúc nào",
+  "onboardingReminderInfoBody": "Bạn kiểm soát toàn bộ thông báo trong phần Cài đặt thông báo.",
+  "splashTagline": "Theo dõi chu kỳ nhẹ nhàng và riêng tư",
+  "languageTitle": "Chọn ngôn ngữ",
+  "languageSubtitle": "Bạn có thể thay đổi lại trong phần Cài đặt sau.",
+  "dailyLogFlowSpotting": "Lấm tấm",
+  "dailyLogFlowLight": "Nhẹ",
+  "dailyLogFlowMedium": "Vừa",
+  "dailyLogFlowHeavy": "Nhiều",
+  "dailyLogFlowProlonged": "Rong kinh",
+  "dailyLogMoodHappy": "Vui vẻ",
+  "dailyLogMoodNormal": "Bình thường",
+  "dailyLogMoodSad": "Buồn",
+  "dailyLogMoodIrritable": "Cáu gắt",
+  "dailyLogMoodAnxious": "Lo lắng",
+  "dailyLogMoodTired": "Mệt mỏi",
+  "dailyLogSymptomCramps": "Đau bụng",
+  "dailyLogSymptomBackPain": "Đau lưng",
+  "dailyLogSymptomHeadache": "Đau đầu",
+  "dailyLogSymptomBloating": "Đầy hơi",
+  "dailyLogSymptomBreastTenderness": "Căng ngực",
+  "dailyLogSymptomAcne": "Nổi mụn",
+  "dailyLogSymptomNausea": "Buồn nôn",
+  "dailyLogSymptomCravings": "Thèm ăn",
+  "dailyLogSymptomInsomnia": "Mất ngủ",
+  "dailyLogSymptomDiarrhea": "Tiêu chảy",
+  "dailyLogMaxMoods": "Chọn tối đa {count} tâm trạng.",
+  "@dailyLogMaxMoods": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyLogAddSymptom": "Thêm triệu chứng",
+  "dailyLogSymptomNameHint": "Tên triệu chứng",
+  "dailyLogAdd": "Thêm",
+  "dailyLogSavedTitle": "Đã lưu",
+  "dailyLogSavedMessage": "Đã lưu ghi nhận ngày {date}",
+  "@dailyLogSavedMessage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyLogFlow": "Ra máu",
+  "dailyLogSpottingNotPeriod": "\"Lấm tấm\" không tính là kỳ kinh.",
+  "dailyLogMood": "Tâm trạng",
+  "dailyLogSymptoms": "Triệu chứng",
+  "dailyLogNote": "Ghi chú",
+  "dailyLogNoteHint": "Viết vài dòng cho hôm nay…",
+  "dailyLogClearDay": "Xoá ngày này",
+  "dailyLogPreviousDay": "Lùi 1 ngày",
+  "dailyLogNextDay": "Tiến 1 ngày",
+  "dailyLogTodayDate": "Hôm nay, {date}",
+  "@dailyLogTodayDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "logPeriodHintAutoFilled": "Đã tự điền {count} ngày theo độ dài kỳ kinh trung bình. Bỏ chọn nếu kinh kết thúc sớm hơn.",
+  "@logPeriodHintAutoFilled": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintUntilToday": "Đã đánh dấu tới hôm nay. Các ngày tiếp theo được dự đoán.",
+  "logPeriodHintMerged": "Đã nối thành một kỳ kinh.",
+  "logPeriodHintGapFilled": "Đã điền thêm {count} ngày bị bỏ trống ở giữa.",
+  "@logPeriodHintGapFilled": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintRemoved": "Đã bỏ {count} ngày, gồm cả những ngày tự điền.",
+  "@logPeriodHintRemoved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodSavedTitle": "Đã lưu",
+  "logPeriodSavedMessage": "Lịch kỳ kinh và dự đoán đã được cập nhật.",
+  "logPeriodDiscardTitle": "Bỏ thay đổi?",
+  "logPeriodDiscardMessage": "Những ngày bạn vừa chọn sẽ không được lưu.",
+  "logPeriodKeepEditing": "Tiếp tục sửa",
+  "logPeriodDiscard": "Bỏ",
+  "logPeriodTitle": "Ghi kỳ kinh",
+  "logPeriodSubtitle": "Chạm vào những ngày bạn có kinh",
+  "logPeriodLegendLogged": "Đã ghi",
+  "logPeriodLegendAutoFilled": "Tự điền",
+  "logPeriodLegendPredicted": "Dự đoán",
+  "logPeriodDaySemantics": "Ngày {day} tháng {month}{status, select, logged{, có kinh} midCycle{, ra máu giữa kỳ} predicted{, dự đoán} other{}}",
+  "@logPeriodDaySemantics": {
+    "description": "Screen-reader label of a calendar day. status is 'logged', 'predicted' or 'none'.",
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "phaseMenstrualName": "Kỳ kinh nguyệt",
+  "phaseMenstrualShortName": "Hành kinh",
+  "phaseMenstrualDescription": "Chu kỳ mới bắt đầu từ ngày đầu tiên ra máu. Do nồng độ hormone giảm, lớp niêm mạc tử cung dày lên ở chu kỳ trước bong ra và thoát ra ngoài qua âm đạo. Kỳ kinh thường kéo dài 2 – 7 ngày, tổng lượng máu mất khoảng 30 – 80 ml là trong mức bình thường.",
+  "phaseMenstrualSymptomNote": "Tử cung co bóp để đẩy niêm mạc ra ngoài nên đau bụng, đau lưng là thường gặp, nhất là 1 – 2 ngày đầu. Các triệu chứng sẽ giảm dần khi kỳ kinh kết thúc.",
+  "phaseMenstrualTip1Title": "Chườm ấm bụng",
+  "phaseMenstrualTip1Subtitle": "Giúp cơ tử cung thư giãn, giảm co thắt.",
+  "phaseMenstrualTip2Title": "Bổ sung sắt",
+  "phaseMenstrualTip2Subtitle": "Thịt đỏ, rau lá xanh đậm, đậu giúp bù lượng sắt đã mất.",
+  "phaseMenstrualTip3Title": "Nghỉ ngơi nhiều hơn",
+  "phaseMenstrualTip3Subtitle": "Ưu tiên vận động nhẹ như đi bộ, giãn cơ.",
+  "phaseFollicularName": "Giai đoạn nang trứng",
+  "phaseFollicularShortName": "Nang trứng",
+  "phaseFollicularDescription": "Hormone FSH kích thích các nang trứng trong buồng trứng phát triển, trong đó một nang trội sẽ tiếp tục trưởng thành. Estrogen tăng dần giúp niêm mạc tử cung dày lên trở lại. Khả năng thụ thai lúc này còn thấp nhưng sẽ tăng khi gần tới cửa sổ thụ thai.",
+  "phaseFollicularSymptomNote": "Estrogen tăng thường giúp bạn tỉnh táo, vui vẻ và tràn đầy năng lượng hơn. Đây là lúc phù hợp để tập luyện cường độ cao hoặc bắt đầu việc mới.",
+  "phaseFollicularTip1Title": "Tập luyện mạnh",
+  "phaseFollicularTip1Subtitle": "Cơ thể phục hồi tốt, phù hợp cardio và tập tạ.",
+  "phaseFollicularTip2Title": "Ăn nhiều rau xanh",
+  "phaseFollicularTip2Subtitle": "Chất xơ hỗ trợ cơ thể chuyển hóa estrogen.",
+  "phaseFertileName": "Cửa sổ thụ thai",
+  "phaseFertileShortName": "Dễ thụ thai",
+  "phaseFertileDescription": "Estrogen đạt mức cao, dịch nhầy cổ tử cung trở nên trong và dai giúp tinh trùng di chuyển dễ hơn. Tinh trùng có thể sống tới 5 ngày trong cơ thể, vì vậy quan hệ không bảo vệ trong những ngày này có thể dẫn tới mang thai.",
+  "phaseFertileSymptomNote": "Dịch nhầy giống lòng trắng trứng là dấu hiệu tự nhiên cho thấy cơ thể sắp rụng trứng. Theo dõi dấu hiệu này giúp xác định cửa sổ thụ thai chính xác hơn.",
+  "phaseFertileTip1Title": "Chủ động bảo vệ",
+  "phaseFertileTip1Subtitle": "Dùng biện pháp tránh thai nếu chưa có kế hoạch mang thai.",
+  "phaseFertileTip2Title": "Đo thân nhiệt buổi sáng",
+  "phaseFertileTip2Subtitle": "Giúp xác nhận ngày rụng trứng sau khi nó xảy ra.",
+  "phaseOvulationName": "Ngày rụng trứng",
+  "phaseOvulationShortName": "Rụng trứng",
+  "phaseOvulationDescription": "Đỉnh LH kích hoạt nang trứng trội vỡ ra và phóng thích trứng vào ống dẫn trứng. Trứng chỉ sống khoảng 12 – 24 giờ, nên đây là thời điểm khả năng thụ thai cao nhất trong chu kỳ. Ngày rụng trứng là ước tính và có thể lệch vài ngày.",
+  "phaseOvulationSymptomNote": "Một số người cảm thấy đau nhói nhẹ ở một bên bụng dưới khi trứng rụng. Cơn đau thường chỉ kéo dài vài phút đến vài giờ và là hiện tượng bình thường.",
+  "phaseOvulationTip1Title": "Thời điểm dễ thụ thai nhất",
+  "phaseOvulationTip1Subtitle": "Hữu ích nếu bạn đang có kế hoạch mang thai.",
+  "phaseOvulationTip2Title": "Uống đủ nước",
+  "phaseOvulationTip2Subtitle": "Giúp giảm đầy hơi và khó chịu quanh ngày rụng trứng.",
+  "phaseLutealName": "Giai đoạn hoàng thể",
+  "phaseLutealShortName": "Hoàng thể",
+  "phaseLutealDescription": "Sau khi trứng rụng, nang trứng chuyển thành thể vàng và tiết ra progesterone để chuẩn bị niêm mạc tử cung cho trứng làm tổ. Thân nhiệt tăng nhẹ khoảng 0,3 – 0,5°C. Khả năng thụ thai giảm nhanh sau ngày rụng trứng.",
+  "phaseLutealSymptomNote": "Progesterone tăng có thể khiến bạn thèm ăn và buồn ngủ hơn. Ăn nhiều bữa nhỏ và ngủ đủ giấc sẽ giúp cơ thể dễ chịu hơn.",
+  "phaseLutealTip1Title": "Tập nhẹ nhàng",
+  "phaseLutealTip1Subtitle": "Yoga, đi bộ, bơi phù hợp khi năng lượng giảm dần.",
+  "phaseLutealTip2Title": "Ăn nhiều bữa nhỏ",
+  "phaseLutealTip2Subtitle": "Giữ đường huyết ổn định, hạn chế thèm đồ ngọt.",
+  "phasePmsShortName": "Tiền kinh",
+  "phasePmsDescription": "Nếu trứng không được thụ tinh, thể vàng thoái hóa và nồng độ estrogen, progesterone giảm xuống. Sự sụt giảm này có thể gây ra hội chứng tiền kinh nguyệt (PMS). Kỳ kinh tiếp theo sẽ bắt đầu khi niêm mạc tử cung bong ra.",
+  "phasePmsSymptomNote": "PMS thường xuất hiện trong khoảng 5 ngày trước kỳ kinh và hết sau khi kỳ kinh bắt đầu. Nếu triệu chứng ảnh hưởng nhiều tới sinh hoạt, hãy trao đổi với bác sĩ.",
+  "phasePmsTip1Title": "Giảm muối và caffeine",
+  "phasePmsTip1Subtitle": "Giúp giảm đầy hơi, căng ngực và cáu gắt.",
+  "phasePmsTip2Title": "Chuẩn bị sẵn",
+  "phasePmsTip2Subtitle": "Mang theo băng vệ sinh phòng khi kỳ kinh đến sớm.",
+  "phaseLateName": "Trễ kinh",
+  "phaseLateShortName": "Trễ kinh",
+  "phaseLateDescription": "Kỳ kinh đến muộn hơn dự kiến. Trễ vài ngày khá phổ biến và có thể do căng thẳng, thay đổi giấc ngủ, cân nặng hoặc lịch sinh hoạt. Nếu có quan hệ không bảo vệ, bạn có thể thử thai để yên tâm.",
+  "phaseLateSymptomNote": "Những triệu chứng này có thể là PMS kéo dài hoặc dấu hiệu sớm của thai kỳ. Nếu trễ kinh trên 1 tuần hoặc lặp lại nhiều tháng, hãy gặp bác sĩ.",
+  "phaseLateTip1Title": "Kiểm tra lại lịch",
+  "phaseLateTip1Subtitle": "Có thể bạn đã quên ghi ngày bắt đầu kỳ kinh.",
+  "phaseLateTip2Title": "Cân nhắc thử thai",
+  "phaseLateTip2Subtitle": "Nếu có quan hệ không bảo vệ trong chu kỳ này.",
+  "phaseSymptomCramps": "Đau bụng dưới",
+  "phaseSymptomBackPain": "Đau lưng",
+  "phaseSymptomFatigue": "Mệt mỏi",
+  "phaseSymptomHeadache": "Đau đầu",
+  "phaseSymptomBloating": "Đầy hơi",
+  "phaseSymptomMoodSwings": "Tâm trạng thất thường",
+  "phaseSymptomEnergetic": "Nhiều năng lượng",
+  "phaseSymptomGoodMood": "Tâm trạng tốt",
+  "phaseSymptomClearSkin": "Da sáng hơn",
+  "phaseSymptomFocus": "Dễ tập trung",
+  "phaseSymptomEggWhiteMucus": "Dịch nhầy trong, dai",
+  "phaseSymptomHighLibido": "Ham muốn tăng",
+  "phaseSymptomBreastTendernessMild": "Căng ngực nhẹ",
+  "phaseSymptomBreastTenderness": "Căng ngực",
+  "phaseSymptomOvulationPain": "Đau nhẹ một bên bụng",
+  "phaseSymptomCravings": "Thèm ăn",
+  "phaseSymptomSleepy": "Buồn ngủ",
+  "phaseSymptomAcne": "Nổi mụn",
+  "phaseSymptomIrritable": "Dễ cáu gắt",
+  "phaseSymptomNausea": "Buồn nôn",
+  "phaseConceptionLowLabel": "Thấp",
+  "phaseConceptionLowMessage": "Ngoài cửa sổ thụ thai, khả năng mang thai thấp nhưng không bằng 0 vì ngày rụng trứng có thể thay đổi.",
+  "phaseConceptionMediumLabel": "Trung bình",
+  "phaseConceptionMediumMessage": "Ngày này nằm ở rìa cửa sổ thụ thai nên vẫn có khả năng mang thai, dù không cao bằng những ngày sát ngày rụng trứng.",
+  "phaseConceptionHighLabel": "Cao",
+  "phaseConceptionHighMessage": "Chỉ còn 1 – 2 ngày tới ngày rụng trứng dự kiến, khả năng thụ thai đang ở mức cao.",
+  "phaseConceptionPeakLabel": "Rất cao",
+  "phaseConceptionPeakMessage": "Đây là ngày rụng trứng dự kiến, thời điểm dễ thụ thai nhất trong chu kỳ.",
+  "phaseConceptionTitle": "Khả năng thụ thai",
+  "phaseConceptionChartWindow": "Cửa sổ thụ thai",
+  "phaseFooterDisclaimer": "Dự đoán dựa trên độ dài chu kỳ trung bình {cycleLength} ngày và chỉ mang tính tham khảo, không thay thế cho chẩn đoán của bác sĩ.",
+  "@phaseFooterDisclaimer": {
+    "placeholders": {
+      "cycleLength": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseTopBarDate": "{weekday}, {date}",
+  "@phaseTopBarDate": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "phaseTopBarPreview": "Xem trước",
+  "phaseBackToToday": "Về hôm nay",
+  "phaseHeroStatusMenstrual": "Ngày {day}/{periodLength} của kỳ kinh",
+  "@phaseHeroStatusMenstrual": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "periodLength": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseHeroStatusFollicular": "Còn {count} ngày tới ngày rụng trứng",
+  "@phaseHeroStatusFollicular": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseHeroStatusFertile": "Còn {count} ngày tới ngày rụng trứng dự kiến",
+  "@phaseHeroStatusFertile": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseHeroStatusOvulation": "Ngày rụng trứng dự kiến",
+  "phaseHeroStatusLuteal": "Còn {count} ngày tới kỳ kinh tiếp theo",
+  "@phaseHeroStatusLuteal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseHeroStatusLate": "Kỳ kinh đã trễ {count} ngày",
+  "@phaseHeroStatusLate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseHeroCycleLength": "/ {count} ngày",
+  "@phaseHeroCycleLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseDayLabel": "Ngày {day}",
+  "@phaseDayLabel": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseTimelineTitle": "Hành trình chu kỳ",
+  "phaseTimelineHint": "Chạm để xem ngày khác",
+  "phaseTimelineTodayMark": "Nay",
+  "phaseDescriptionTitle": "Chuyện gì đang diễn ra?",
+  "phaseHormonesTitle": "Hormone",
+  "phaseHormoneLow": "Thấp",
+  "phaseHormoneRising": "Đang tăng",
+  "phaseHormoneHigh": "Cao",
+  "phaseHormonePeak": "Đạt đỉnh",
+  "phaseHormoneFalling": "Đang giảm",
+  "phaseSymptomsTitle": "Có thể bạn sẽ gặp",
+  "phaseSymptomsHintToday": "Chạm vào triệu chứng bạn đang có để lưu cho hôm nay.",
+  "phaseSymptomsHintPreview": "Chỉ có thể ghi nhận triệu chứng cho hôm nay.",
+  "phaseSymptomsLoggedCount": "Đã lưu {count} triệu chứng cho hôm nay",
+  "@phaseSymptomsLoggedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseTipsTitle": "Chăm sóc bản thân",
+  "emptyCycleTitle": "Chưa có dữ liệu chu kỳ",
+  "emptyCycleMessage": "Ghi lại kỳ kinh gần nhất để xem dự đoán, giai đoạn chu kỳ và phân tích của riêng bạn.",
+  "emptyCycleAction": "Ghi kỳ kinh",
+  "homeLogFirstPeriod": "Ghi kỳ kinh đầu tiên",
+  "homeRingEmptyTitle": "Chưa có dữ liệu",
+  "homeRingEmptySubtitle": "Ghi kỳ kinh để bắt đầu dự đoán",
+  "homeRingLatePrefix": "Trễ kinh",
+  "homeRingLateHint": "Ghi lại nếu kinh đã đến",
+  "homeRingPeriodPrefix": "Kỳ kinh",
+  "homeRingDay": "Ngày {day}",
+  "@homeRingDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRingPeriodOf": "Kỳ kinh thường kéo dài {count} ngày",
+  "@homeRingPeriodOf": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeGreetingAfternoon": "Chào buổi chiều 🌷",
+  "homeGreetingEvening": "Chào buổi tối 🌙",
+  "onboardingPickDate": "Chọn ngày",
+  "onboardingDontRemember": "Tôi không nhớ",
+  "onboardingDontRememberHint": "Bạn có thể ghi lại kỳ kinh sau",
+  "dailyLogSymptomOther": "Triệu chứng khác",
+  "dailyLogDayDate": "{weekday}, {date}",
+  "@dailyLogDayDate": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "insightSummaryC1P1": "Trong {n} chu kỳ gần đây, mọi thứ khá đều đặn — kỳ kinh kéo dài khoảng {avgPeriod} ngày và chu kỳ khoảng {avgCycle} ngày.",
+  "@insightSummaryC1P1": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "avgPeriod": {
+        "type": "int"
+      },
+      "avgCycle": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC1P2": "Độ dài chu kỳ của bạn giữ ổn định ở khoảng {avgCycle} ngày, còn số ngày hành kinh có thay đổi nhẹ ({periodMin}–{periodMax} ngày).",
+  "@insightSummaryC1P2": {
+    "placeholders": {
+      "avgCycle": {
+        "type": "int"
+      },
+      "periodMin": {
+        "type": "int"
+      },
+      "periodMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC1P3": "Một kỳ kinh gần đây kéo dài {periodValue} ngày, nằm ngoài khoảng thông thường, trong khi chu kỳ vẫn đều ở khoảng {avgCycle} ngày. Nếu điều này lặp lại trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau.",
+  "@insightSummaryC1P3": {
+    "placeholders": {
+      "periodValue": {
+        "type": "int"
+      },
+      "avgCycle": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC1P4": "Một kỳ kinh gần đây ({periodDetail}) lệch khá xa khoảng thông thường, dù chu kỳ vẫn ổn định ở khoảng {avgCycle} ngày. Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC1P4": {
+    "placeholders": {
+      "periodDetail": {
+        "type": "String"
+      },
+      "avgCycle": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC2P1": "Kỳ kinh của bạn đều đặn ở khoảng {avgPeriod} ngày, còn độ dài chu kỳ có dao động nhẹ ({cycleMin}–{cycleMax} ngày).",
+  "@insightSummaryC2P1": {
+    "placeholders": {
+      "avgPeriod": {
+        "type": "int"
+      },
+      "cycleMin": {
+        "type": "int"
+      },
+      "cycleMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC2P2": "Gần đây cả độ dài chu kỳ lẫn số ngày hành kinh đều dao động nhẹ. Những thay đổi nhỏ như vậy rất thường gặp.",
+  "@insightSummaryC2P2": {
+    "placeholders": {}
+  },
+  "insightSummaryC2P3": "Một kỳ kinh gần đây kéo dài {periodValue} ngày, nằm ngoài khoảng thông thường, và độ dài chu kỳ cũng dao động nhẹ ({cycleMin}–{cycleMax} ngày). Nếu tình trạng này tiếp diễn trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau.",
+  "@insightSummaryC2P3": {
+    "placeholders": {
+      "periodValue": {
+        "type": "int"
+      },
+      "cycleMin": {
+        "type": "int"
+      },
+      "cycleMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC2P4": "Một kỳ kinh gần đây ({periodDetail}) lệch khá xa khoảng thông thường, và độ dài chu kỳ cũng dao động nhẹ ({cycleMin}–{cycleMax} ngày). Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC2P4": {
+    "placeholders": {
+      "periodDetail": {
+        "type": "String"
+      },
+      "cycleMin": {
+        "type": "int"
+      },
+      "cycleMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC3P1": "Một chu kỳ gần đây dài {cycleValue} ngày, nằm ngoài khoảng thông thường, trong khi kỳ kinh vẫn đều ở khoảng {avgPeriod} ngày. Nếu điều này lặp lại trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau.",
+  "@insightSummaryC3P1": {
+    "placeholders": {
+      "cycleValue": {
+        "type": "int"
+      },
+      "avgPeriod": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC3P2": "Một chu kỳ gần đây dài {cycleValue} ngày, nằm ngoài khoảng thông thường, và số ngày hành kinh cũng dao động nhẹ ({periodMin}–{periodMax} ngày). Nếu tình trạng này tiếp diễn trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau.",
+  "@insightSummaryC3P2": {
+    "placeholders": {
+      "cycleValue": {
+        "type": "int"
+      },
+      "periodMin": {
+        "type": "int"
+      },
+      "periodMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC3P3": "Gần đây cả độ dài chu kỳ và số ngày hành kinh đều vượt ra ngoài khoảng thông thường. Hãy tiếp tục ghi lại và theo dõi thêm trong 1–2 chu kỳ tới.",
+  "@insightSummaryC3P3": {
+    "placeholders": {}
+  },
+  "insightSummaryC3P4": "Một kỳ kinh gần đây ({periodDetail}) lệch khá xa khoảng thông thường, và có một chu kỳ cũng nằm ngoài khoảng thường gặp ({cycleValue} ngày). Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC3P4": {
+    "placeholders": {
+      "periodDetail": {
+        "type": "String"
+      },
+      "cycleValue": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC4P1": "Một chu kỳ gần đây ({cycleDetail}) lệch khá xa khoảng thông thường, trong khi kỳ kinh vẫn đều ở khoảng {avgPeriod} ngày. Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC4P1": {
+    "placeholders": {
+      "cycleDetail": {
+        "type": "String"
+      },
+      "avgPeriod": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC4P2": "Một chu kỳ gần đây ({cycleDetail}) lệch khá xa khoảng thông thường, và số ngày hành kinh cũng dao động nhẹ ({periodMin}–{periodMax} ngày). Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC4P2": {
+    "placeholders": {
+      "cycleDetail": {
+        "type": "String"
+      },
+      "periodMin": {
+        "type": "int"
+      },
+      "periodMax": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC4P3": "Một chu kỳ gần đây ({cycleDetail}) lệch khá xa khoảng thông thường, và có một kỳ kinh cũng nằm ngoài khoảng thường gặp ({periodValue} ngày). Bạn nên trao đổi với bác sĩ về điều này.",
+  "@insightSummaryC4P3": {
+    "placeholders": {
+      "cycleDetail": {
+        "type": "String"
+      },
+      "periodValue": {
+        "type": "int"
+      }
+    }
+  },
+  "insightSummaryC4P4": "Gần đây cả độ dài chu kỳ và số ngày hành kinh đều có giá trị lệch xa khoảng thông thường. Bạn nên sớm trao đổi với bác sĩ về tình trạng này.",
+  "@insightSummaryC4P4": {
+    "placeholders": {}
+  },
+  "insightSummaryNotEnough": "Hãy ghi lại ít nhất 2 chu kỳ để xem độ dài chu kỳ và kỳ kinh của bạn thay đổi thế nào theo thời gian.",
+  "insightBadgeAttention": "Cần chú ý",
+  "insightTrendEmpty": "Biểu đồ sẽ hiện khi bạn có ít nhất một chu kỳ hoàn chỉnh (ghi được hai kỳ kinh liên tiếp).",
+  "insightPatternsEmpty": "Ghi triệu chứng trong ít nhất 2 chu kỳ để phát hiện những mẫu lặp lại.",
+  "insightPatternDuringDay": "Ngày {day} của kỳ kinh",
+  "@insightPatternDuringDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "insightPatternCycleDay": "Quanh ngày {day} của chu kỳ",
+  "@insightPatternCycleDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintMidCycle": "Ngày này là ngày {cycleDay} của chu kỳ; chu kỳ mới chỉ bắt đầu từ ngày {nextDay} (khi đủ {cycleLength} ngày), nên được ghi là ra máu giữa kỳ.",
+  "@logPeriodHintMidCycle": {
+    "placeholders": {
+      "cycleDay": {
+        "type": "int"
+      },
+      "nextDay": {
+        "type": "int"
+      },
+      "cycleLength": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintAbsorbed": "Lưu ý: kỳ kinh ngày {date} không còn mở chu kỳ riêng — giờ được tính là ra máu giữa kỳ.",
+  "@logPeriodHintAbsorbed": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "logPeriodLegendMidCycle": "Ra máu giữa kỳ",
+  "homeRingMidCyclePrefix": "Ra máu giữa kỳ",
+  "homeRingNextPeriodOn": "Kỳ tới dự kiến {date}",
+  "@homeRingNextPeriodOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeLogPeriodUpdateToday": "Cập nhật kỳ kinh",
+  "homeLegendMidCycle": "Ra máu giữa kỳ",
+  "logPeriodCycleLengthChip": "Chu kỳ {count} ngày",
+  "@logPeriodCycleLengthChip": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodCycleLengthTitle": "Độ dài chu kỳ",
+  "logPeriodCycleLengthHelp": "Một ngày có kinh chỉ được tính là ngày 1 của chu kỳ mới khi đã đủ số ngày này kể từ ngày đầu của chu kỳ trước. Trước đó, ngày có kinh được tính là kéo dài kỳ kinh hoặc ra máu giữa kỳ.",
+  "cycleHistoryTitle": "Lịch sử chu kỳ",
+  "cycleHistoryLegendTooltip": "Cách đọc biểu đồ",
+  "cycleHistorySummary": "{count} chu kỳ gần nhất · {range} · thường {typical} ngày",
+  "@cycleHistorySummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "range": {
+        "type": "String"
+      },
+      "typical": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistorySummaryPeriod": "Kỳ kinh {range}",
+  "@cycleHistorySummaryPeriod": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleHistoryDayRange": "{min}–{max} ngày",
+  "@cycleHistoryDayRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryNeedMore": "Khi ghi thêm kỳ kinh, bạn sẽ thấy các chu kỳ của mình dài ngắn thế nào so với nhau.",
+  "cycleHistoryUpcoming": "Sắp tới (ước tính)",
+  "cycleHistoryRange": "{start} – {end}",
+  "@cycleHistoryRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleHistoryRangeNow": "{start} – nay",
+  "@cycleHistoryRangeNow": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleHistoryAround": "Khoảng {date}",
+  "@cycleHistoryAround": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleHistoryCurrentDay": "Ngày {day}",
+  "@cycleHistoryCurrentDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryLate": "Trễ {count} ngày",
+  "@cycleHistoryLate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryPredicted": "Dự kiến",
+  "cycleHistoryPeriodDays": "Kỳ kinh {count} ngày",
+  "@cycleHistoryPeriodDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryPredictedPeriodDays": "Kỳ kinh khoảng {count} ngày",
+  "@cycleHistoryPredictedPeriodDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryMidCycleDays": "{count} ngày ra máu giữa kỳ",
+  "@cycleHistoryMidCycleDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryMissing": "Có thể bạn quên ghi một kỳ kinh",
+  "cycleHistoryMissingDetail": "Khoảng cách {count} ngày quá dài để là một chu kỳ, nên không được tính vào thống kê. Nếu bạn có kỳ kinh trong khoảng này, hãy ghi lại.",
+  "@cycleHistoryMissingDetail": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryAddPeriod": "Thêm kỳ kinh",
+  "cycleHistoryShowAll": "Xem tất cả ({count})",
+  "@cycleHistoryShowAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryShowLess": "Thu gọn",
+  "cycleHistoryDiffLonger": "Dài hơn thường lệ {count} ngày",
+  "@cycleHistoryDiffLonger": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryDiffShorter": "Ngắn hơn thường lệ {count} ngày",
+  "@cycleHistoryDiffShorter": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryDiffSame": "Bằng độ dài thường lệ",
+  "cycleHistoryOutsideRange": "Nằm ngoài khoảng thường gặp (21–38 ngày). Một chu kỳ lệch thỉnh thoảng là bình thường; nếu lặp lại, bạn có thể trao đổi với bác sĩ.",
+  "cycleHistoryDetailPeriod": "Kỳ kinh",
+  "cycleHistoryDetailExpectedPeriod": "Kỳ kinh dự kiến",
+  "cycleHistoryDetailOvulation": "Rụng trứng ước tính",
+  "cycleHistoryNotConfirmed": "{date} (chưa được xác nhận)",
+  "@cycleHistoryNotConfirmed": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleHistoryDetailFertile": "Có thể dễ thụ thai",
+  "cycleHistoryCannotEstimate": "Không ước tính được với chu kỳ này",
+  "cycleHistoryDetailSymptoms": "Triệu chứng đã ghi",
+  "cycleHistoryNoSymptoms": "Chưa ghi triệu chứng",
+  "cycleHistoryLateDetail": "Chưa có kỳ kinh mới sau {count} ngày bạn đặt. Nếu kinh đã đến, hãy ghi lại.",
+  "@cycleHistoryLateDetail": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryForecastNote": "Dự đoán dựa trên độ dài chu kỳ {count} ngày bạn đặt và có thể lệch vài ngày.",
+  "@cycleHistoryForecastNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryLegendPeriod": "Kỳ kinh đã ghi",
+  "cycleHistoryLegendPredicted": "Kỳ kinh dự đoán",
+  "cycleHistoryLegendMidCycle": "Ra máu giữa kỳ",
+  "cycleHistoryLegendFertile": "Có thể dễ thụ thai (ước tính)",
+  "cycleHistoryLegendOvulation": "Rụng trứng ước tính",
+  "cycleHistoryLegendLate": "Ngày trễ kinh",
+  "cycleHistoryLegendTypical": "Độ dài thường lệ của bạn",
+  "cycleHistoryDisclaimer": "Ngày rụng trứng và những ngày có thể dễ thụ thai chỉ là ước tính theo lịch, có thể lệch vài ngày và không phải biện pháp tránh thai.",
+  "cycleHistoryRowSemantics": "Chu kỳ {range}. {length}. {details}",
+  "@cycleHistoryRowSemantics": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      },
+      "length": {
+        "type": "String"
+      },
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Cài đặt",
+  "settingsSubtitle": "Tuỳ chỉnh cách app dự đoán chu kỳ của bạn.",
+  "settingsCycleSectionTitle": "CHU KỲ & KỲ KINH",
+  "settingsCycleLengthTitle": "Độ dài chu kỳ",
+  "settingsCycleLengthSubtitle": "Quyết định khi nào một chu kỳ mới bắt đầu",
+  "settingsPeriodLengthTitle": "Độ dài kỳ kinh",
+  "settingsPeriodLengthSubtitle": "Dùng để tự điền và dự đoán; sẽ tự cập nhật khi bạn ghi thêm kỳ kinh",
+  "settingsPeriodLengthHelp": "Dùng để tự điền khi ghi kỳ kinh mới và để dự đoán các kỳ kinh sắp tới. Giá trị này sẽ tự cập nhật mỗi khi bạn ghi xong một kỳ kinh mới.",
+  "logPeriodHintAutoFilledUntilToday": "Đã tự điền {count} ngày, đánh dấu tới hôm nay. Các ngày tiếp theo được dự đoán.",
+  "@logPeriodHintAutoFilledUntilToday": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintMergedWithFill": "Đã điền {count} ngày để nối liền thành một kỳ kinh.",
+  "@logPeriodHintMergedWithFill": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintNewCycleAt": "{date} là ngày 1 của chu kỳ mới, vì đã đủ {cycleLength} ngày kể từ đầu chu kỳ trước.",
+  "@logPeriodHintNewCycleAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "cycleLength": {
+        "type": "int"
+      }
+    }
+  },
+  "logPeriodHintAbsorbedMultiple": "Lưu ý: {count} kỳ kinh trước đó không còn mở chu kỳ riêng — giờ được tính là ra máu giữa kỳ.",
+  "@logPeriodHintAbsorbedMultiple": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarSubtitle": "Chạm vào một ngày để xem chi tiết",
+  "calendarLegendTooltip": "Chú thích",
+  "calendarJumpToToday": "Về hôm nay",
+  "calendarLegendLogged": "Đã ghi nhận",
+  "calendarDetailNoLog": "Chưa ghi gì cho ngày này.",
+  "calendarLogButton": "Ghi nhận",
+  "settingsCycleSectionPreview": "Chu kỳ {cycleLength} ngày · Kỳ kinh {periodLength} ngày",
+  "@settingsCycleSectionPreview": {
+    "placeholders": {
+      "cycleLength": {
+        "type": "int"
+      },
+      "periodLength": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsThemeSectionTitle": "Giao diện",
+  "settingsThemeSystem": "Theo hệ thống",
+  "settingsThemeLight": "Sáng",
+  "settingsThemeDark": "Tối",
+  "settingsLanguageSectionTitle": "Ngôn ngữ",
+  "settingsReminderSectionTitle": "Nhắc nhở",
+  "settingsReminderSectionPreviewOn": "{count, plural, =1{1 nhắc nhở đang bật} other{{count} nhắc nhở đang bật}}",
+  "@settingsReminderSectionPreviewOn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminderSectionPreviewOff": "Chưa bật nhắc nhở nào",
+  "settingsReminderNote": "Thông báo sẽ khả dụng ở bản cập nhật sau. Bạn có thể chọn trước lựa chọn của mình ngay bây giờ.",
+  "settingsReminderDailyLogTitle": "Nhắc ghi nhật ký hằng ngày",
+  "settingsReminderDailyLogSubtitle": "Nhắc bạn ghi triệu chứng, tâm trạng mỗi ngày",
+  "settingsReminderPeriodTitle": "Nhắc trước kỳ kinh",
+  "settingsReminderPeriodSubtitle": "Nhắc trước {days} ngày",
+  "@settingsReminderPeriodSubtitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminderOvulationTitle": "Nhắc ngày rụng trứng",
+  "settingsReminderOvulationSubtitle": "Nhắc vào ngày rụng trứng ước tính",
+  "settingsReminderDaysBeforeSheetTitle": "Nhắc trước bao nhiêu ngày?",
+  "settingsPrivacySectionTitle": "Quyền riêng tư & Dữ liệu",
+  "settingsPrivacySectionPreview": "Đã ghi {periods} kỳ kinh · {days} ngày nhật ký",
+  "@settingsPrivacySectionPreview": {
+    "placeholders": {
+      "periods": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDataLocalNote": "Toàn bộ dữ liệu chỉ được lưu trên máy của bạn, không gửi lên máy chủ nào.",
+  "settingsClearDataTitle": "Xoá toàn bộ dữ liệu chu kỳ",
+  "settingsClearDataSubtitle": "Xoá vĩnh viễn kỳ kinh và nhật ký đã ghi",
+  "settingsClearDataConfirmTitle": "Xoá toàn bộ dữ liệu?",
+  "settingsClearDataConfirmMessage": "Toàn bộ kỳ kinh và nhật ký đã ghi sẽ bị xoá vĩnh viễn. Không thể hoàn tác.",
+  "settingsClearDataConfirmAction": "Xoá",
+  "settingsClearDataDone": "Đã xoá toàn bộ dữ liệu",
+  "settingsPremiumSectionTitle": "Premium",
+  "settingsPremiumSectionPreview": "Sắp ra mắt",
+  "settingsPremiumBody": "Các tính năng Premium (dự đoán nâng cao, không quảng cáo, sao lưu đám mây...) sẽ sớm ra mắt.",
+  "settingsHelpSectionTitle": "Trợ giúp & Thông tin",
+  "settingsHelpSectionPreview": "Câu hỏi thường gặp, phiên bản ứng dụng",
+  "settingsFaqTitle": "Câu hỏi thường gặp",
+  "settingsFaqQ1": "App tính ngày rụng trứng như thế nào?",
+  "settingsFaqA1": "Ngày rụng trứng được ước tính theo lịch (khoảng 14 ngày trước kỳ kinh tiếp theo), không phải đo lường thực tế nên có thể lệch vài ngày.",
+  "settingsFaqQ2": "Vì sao ghi thêm ngày ra máu không đổi chu kỳ hiện tại?",
+  "settingsFaqA2": "Một chu kỳ mới chỉ bắt đầu khi đã đủ số ngày bạn đặt ở mục Chu kỳ & kỳ kinh. Ra máu trước mốc đó được tính là ra máu giữa kỳ.",
+  "settingsFaqQ3": "Dữ liệu của tôi có được lưu ở đâu?",
+  "settingsFaqA3": "Chỉ lưu trên máy của bạn. App không gửi dữ liệu lên bất kỳ máy chủ nào.",
+  "settingsFaqQ4": "Làm sao đổi độ dài chu kỳ mặc định?",
+  "settingsFaqA4": "Mở mục Chu kỳ & kỳ kinh ở đầu màn Cài đặt và chọn Độ dài chu kỳ.",
+  "settingsMedicalDisclaimerTitle": "Miễn trừ trách nhiệm y tế",
+  "settingsAppVersionTitle": "Phiên bản ứng dụng"
+}

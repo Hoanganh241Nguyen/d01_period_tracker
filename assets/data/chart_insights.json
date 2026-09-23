@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "rules": {
+    "_comment": "range = max - min trong tối đa 12 chu kỳ gần nhất. Xét từ mức nặng nhất (4) xuống nhẹ nhất (1), khớp mức nào trước thì lấy mức đó.",
+    "cycle": {
+      "C1": "Stable: mọi chu kỳ trong 21–35 ngày và range <= 7",
+      "C2": "Mild: mọi chu kỳ trong 21–35 ngày và range 8–14",
+      "C3": "Notable: range > 14 (vẫn trong 21–35) HOẶC có chu kỳ 36–44 ngày HOẶC có chu kỳ 19–20 ngày",
+      "C4": "Severe: có chu kỳ >= 45 ngày HOẶC <= 18 ngày"
+    },
+    "period": {
+      "P1": "Stable: mọi kỳ kinh trong 2–7 ngày và range <= 2",
+      "P2": "Mild: mọi kỳ kinh trong 2–7 ngày và range 3–4",
+      "P3": "Notable: range > 4 (vẫn trong 2–7) HOẶC có kỳ kinh 8–9 ngày",
+      "P4": "Severe: có kỳ kinh > 9 ngày HOẶC < 2 ngày"
+    },
+    "min_logs": 2
+  },
+  "placeholders": {
+    "{n}": "Số chu kỳ được dùng để phân tích",
+    "{avg_cycle}": "Độ dài chu kỳ trung bình (ngày)",
+    "{avg_period}": "Số ngày hành kinh trung bình",
+    "{cycle_min}": "Chu kỳ ngắn nhất (ngày)",
+    "{cycle_max}": "Chu kỳ dài nhất (ngày)",
+    "{cycle_value}": "Giá trị chu kỳ lệch khỏi khoảng thông thường (ngày)",
+    "{cycle_detail}": "Mô tả giá trị chu kỳ bất thường, VD: '48 ngày' hoặc '16 ngày'",
+    "{period_min}": "Kỳ kinh ngắn nhất (ngày)",
+    "{period_max}": "Kỳ kinh dài nhất (ngày)",
+    "{period_value}": "Giá trị kỳ kinh lệch khỏi khoảng thông thường (ngày)",
+    "{period_detail}": "Mô tả giá trị kỳ kinh bất thường, VD: '11 ngày' hoặc '1 ngày'"
+  },
+  "insufficient": {
+    "en": "Log at least 2 cycles and we'll start showing how your cycle and period length change over time.",
+    "vi": "Hãy ghi lại ít nhất 2 chu kỳ để xem độ dài chu kỳ và kỳ kinh của bạn thay đổi thế nào theo thời gian."
+  },
+  "matrix": {
+    "C1": {
+      "P1": {
+        "en": "Over your last {n} cycles, things look consistent — periods last about {avg_period} days and cycles run about {avg_cycle} days.",
+        "vi": "Trong {n} chu kỳ gần đây, mọi thứ khá đều đặn — kỳ kinh kéo dài khoảng {avg_period} ngày và chu kỳ khoảng {avg_cycle} ngày."
+      },
+      "P2": {
+        "en": "Your cycle length is holding steady at about {avg_cycle} days, though your period length has varied a little ({period_min}–{period_max} days).",
+        "vi": "Độ dài chu kỳ của bạn giữ ổn định ở khoảng {avg_cycle} ngày, còn số ngày hành kinh có thay đổi nhẹ ({period_min}–{period_max} ngày)."
+      },
+      "P3": {
+        "en": "One of your recent periods lasted {period_value} days, which is outside the typical range, while your cycle stayed consistent at about {avg_cycle} days. If you notice this again over the next few cycles, bring it up at your next appointment.",
+        "vi": "Một kỳ kinh gần đây kéo dài {period_value} ngày, nằm ngoài khoảng thông thường, trong khi chu kỳ vẫn đều ở khoảng {avg_cycle} ngày. Nếu điều này lặp lại trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau."
+      },
+      "P4": {
+        "en": "A recent period ({period_detail}) fell well outside the typical range, even though your cycle length stayed consistent at about {avg_cycle} days. Consider checking in with a doctor about this.",
+        "vi": "Một kỳ kinh gần đây ({period_detail}) lệch khá xa khoảng thông thường, dù chu kỳ vẫn ổn định ở khoảng {avg_cycle} ngày. Bạn nên trao đổi với bác sĩ về điều này."
+      }
+    },
+    "C2": {
+      "P1": {
+        "en": "Your periods are consistent at about {avg_period} days, while your cycle length has varied a little ({cycle_min}–{cycle_max} days).",
+        "vi": "Kỳ kinh của bạn đều đặn ở khoảng {avg_period} ngày, còn độ dài chu kỳ có dao động nhẹ ({cycle_min}–{cycle_max} ngày)."
+      },
+      "P2": {
+        "en": "Both your cycle length and period length have varied slightly lately. Small changes like this are very common.",
+        "vi": "Gần đây cả độ dài chu kỳ lẫn số ngày hành kinh đều dao động nhẹ. Những thay đổi nhỏ như vậy rất thường gặp."
+      },
+      "P3": {
+        "en": "A recent period lasted {period_value} days, outside the typical range, and your cycle length has varied a little ({cycle_min}–{cycle_max} days). If this continues over the next few cycles, bring it up at your next appointment.",
+        "vi": "Một kỳ kinh gần đây kéo dài {period_value} ngày, nằm ngoài khoảng thông thường, và độ dài chu kỳ cũng dao động nhẹ ({cycle_min}–{cycle_max} ngày). Nếu tình trạng này tiếp diễn trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau."
+      },
+      "P4": {
+        "en": "A recent period ({period_detail}) fell well outside the typical range, and your cycle length has varied a little ({cycle_min}–{cycle_max} days). Consider checking in with a doctor about this.",
+        "vi": "Một kỳ kinh gần đây ({period_detail}) lệch khá xa khoảng thông thường, và độ dài chu kỳ cũng dao động nhẹ ({cycle_min}–{cycle_max} ngày). Bạn nên trao đổi với bác sĩ về điều này."
+      }
+    },
+    "C3": {
+      "P1": {
+        "en": "One recent cycle lasted {cycle_value} days, outside the typical range, while your periods stayed consistent at about {avg_period} days. If this continues over the next few cycles, bring it up at your next appointment.",
+        "vi": "Một chu kỳ gần đây dài {cycle_value} ngày, nằm ngoài khoảng thông thường, trong khi kỳ kinh vẫn đều ở khoảng {avg_period} ngày. Nếu điều này lặp lại trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau."
+      },
+      "P2": {
+        "en": "One recent cycle lasted {cycle_value} days, outside the typical range, and your period length has also varied a little ({period_min}–{period_max} days). If this continues over the next few cycles, bring it up at your next appointment.",
+        "vi": "Một chu kỳ gần đây dài {cycle_value} ngày, nằm ngoài khoảng thông thường, và số ngày hành kinh cũng dao động nhẹ ({period_min}–{period_max} ngày). Nếu tình trạng này tiếp diễn trong vài chu kỳ tới, hãy nhắc đến khi bạn đi khám lần sau."
+      },
+      "P3": {
+        "en": "Both your cycle length and period length have recently moved outside their typical ranges. Keep logging and see how the next couple of cycles go.",
+        "vi": "Gần đây cả độ dài chu kỳ và số ngày hành kinh đều vượt ra ngoài khoảng thông thường. Hãy tiếp tục ghi lại và theo dõi thêm trong 1–2 chu kỳ tới."
+      },
+      "P4": {
+        "en": "A recent period ({period_detail}) fell well outside the typical range, and one cycle also ran outside its usual range ({cycle_value} days). Consider checking in with a doctor about this.",
+        "vi": "Một kỳ kinh gần đây ({period_detail}) lệch khá xa khoảng thông thường, và có một chu kỳ cũng nằm ngoài khoảng thường gặp ({cycle_value} ngày). Bạn nên trao đổi với bác sĩ về điều này."
+      }
+    },
+    "C4": {
+      "P1": {
+        "en": "A recent cycle ({cycle_detail}) fell well outside the typical range, while your periods stayed consistent at about {avg_period} days. Consider checking in with a doctor about this.",
+        "vi": "Một chu kỳ gần đây ({cycle_detail}) lệch khá xa khoảng thông thường, trong khi kỳ kinh vẫn đều ở khoảng {avg_period} ngày. Bạn nên trao đổi với bác sĩ về điều này."
+      },
+      "P2": {
+        "en": "A recent cycle ({cycle_detail}) fell well outside the typical range, and your period length has varied a little ({period_min}–{period_max} days). Consider checking in with a doctor about this.",
+        "vi": "Một chu kỳ gần đây ({cycle_detail}) lệch khá xa khoảng thông thường, và số ngày hành kinh cũng dao động nhẹ ({period_min}–{period_max} ngày). Bạn nên trao đổi với bác sĩ về điều này."
+      },
+      "P3": {
+        "en": "A recent cycle ({cycle_detail}) fell well outside the typical range, and one period also lasted outside its usual range ({period_value} days). Consider checking in with a doctor about this.",
+        "vi": "Một chu kỳ gần đây ({cycle_detail}) lệch khá xa khoảng thông thường, và có một kỳ kinh cũng nằm ngoài khoảng thường gặp ({period_value} ngày). Bạn nên trao đổi với bác sĩ về điều này."
+      },
+      "P4": {
+        "en": "Both your cycle length and period length have recently reached values well outside their typical ranges. We recommend talking to a doctor about this.",
+        "vi": "Gần đây cả độ dài chu kỳ và số ngày hành kinh đều có giá trị lệch xa khoảng thông thường. Bạn nên sớm trao đổi với bác sĩ về tình trạng này."
+      }
+    }
+  },
+  "disclaimer": {
+    "en": "This information is for reference only and is not a substitute for medical advice.",
+    "vi": "Thông tin chỉ mang tính tham khảo, không thay thế cho chẩn đoán của bác sĩ."
+  }
+}

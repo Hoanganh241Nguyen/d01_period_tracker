@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  final count = 0.obs;
+  final selectedTab = 0.obs;
 
-  void increment() => count.value++;
+  void selectTab(int index) => selectedTab.value = index;
 }
